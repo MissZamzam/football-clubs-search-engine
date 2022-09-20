@@ -1,0 +1,100 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+body { 
+    width: 100%;
+    height: 100vh;
+    background-color: aliceblue;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 700px;
+    height: 900px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 4px 4px 30px rgb(179, 162, 162);
+    padding: 20px;
+    overflow-y: scroll;
+
+}
+.club{
+    margin: 20px;
+    text-align: center;
+    font-style: normal;
+    /* background-color: rgb(189, 177, 156); */
+    font-weight: 600;
+    padding: 10px 6px;
+    border-radius: 20px;
+    color: rgb(25, 27, 148);
+}
+.container::-webkit-scrollbar{
+    display: none;
+}
+
+.container form{
+    width: 100%;
+    border: 1px solid rgb(82, 74, 235);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.container form input{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    padding:8px 10px ;
+}
+.container form i{
+    padding-left:10px ;
+}
+
+.product-list{
+    padding: 20px;
+}
+
+.product{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding-bottom: 15px;
+}
+.product img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.product .p-details{
+    padding-left:15px;
+    display: flex;
+}
+
+.product .p-details h2{
+    font-size: 20px;
+    color: black;
+    margin-left:55px;
+    margin-top: 20px;
+}
+
+.product .p-details h3{
+    font-size: 18px;
+    color: black;
+    margin-left: 15px;
+    margin-top: 20px;
+
+}
